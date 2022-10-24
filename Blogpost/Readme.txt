@@ -3,10 +3,10 @@ Review Indonesian Movies on Netflix is a Project: Writing a Data Scientist Blog 
 
 Context 
 - What : Netflix is a streaming service that allows our members to watch a wide variety of award-winning TV shows, movies, documentaries, and more on thousands of internet-connected devices In over 190 countries.
-- Who : One of the objects that I will review are Indonesian movie directors and actors
-- Where :Indoeian Movies on Netflix.com from datasets : netflix_titles.csv at https://www.kaggle.com/code/manjunathgb/practical-4/data
+- Who : Who One of the objects that I will review are Indonesian movie directors and actors
+- Where : Indoeian Movies on Netflix.com from datasets : netflix_titles.csv at https://www.kaggle.com/code/manjunathgb/practical-4/data
 - When : 2008 - 2021, excluding data in 2022.
-- Why : I'm trying to show you facts or insights about Indonesian movies on Netflix.
+- Why : I want to show you facts or insights about Indonesian movies on Netflix.
 - How : I use numpy, pandas, matplotlib, and seaborn libraries. I put my code in note book called 'Blog Post.ipnyb' and the result can give us some insight about Indonesian Movies on Netflix. And also, I will focus on the Indonesian movies data alone, because For a TV show in Indonesia, there are only two data.
 
 Table of Contens :
