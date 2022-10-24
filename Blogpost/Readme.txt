@@ -5,7 +5,12 @@ I use numpy, pandas, matplotlib, and seaborn libraries My curiosity
 about insight of Review Indonesian Movies on Netflix has got me to write this blog I put my code in note book called 'Blog Post.ipnyb' 
 and the file in 'netflix_titles.csv'. The result can give us some insight about Indonesian Movies on Netflix.
 
-Context :
+Context 
+- What :
+- Where :
+- When :
+- Why :
+- How :
 
 Table of Contens :
 
