@@ -6,7 +6,8 @@ about insight of Review Indonesian Movies on Netflix has got me to write this bl
 and the file in 'netflix_titles.csv'. The result can give us some insight about Indonesian Movies on Netflix.
 
 Context 
-- What :
+- What : Netflix is a streaming service that allows our members to watch a wide variety of award-winning TV shows, movies, documentaries, and more on thousands of internet-connected devices In over 190 countries.
+- Who :
 - Where :
 - When :
 - Why :
