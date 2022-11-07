@@ -27,7 +27,7 @@ This project will show off your software skills, including your ability to creat
 
 ![Homepage_1.png](/../main/Disaster_Response_Pipeline/image/Homepage_1.png)
 
-[Homepage_2.png](https://github.com/Kazunosekai/PROJECT-UDACITY/blob/main/Disaster%20Response%20Pipeline/image/Homepage%202.png)
+![Homepage_2.png](/../main/Disaster_Response_Pipeline/image/Homepage_2.png)
 
 <a name="2"></a>
 ## 2. Project Components
