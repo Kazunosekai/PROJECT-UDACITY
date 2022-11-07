@@ -29,6 +29,19 @@ from sklearn.svm import LinearSVC
 
 #Load Data from the Database Function
 def load_data(database_filepath):
+    
+    """
+    Load Data from the Database Function
+
+    Input:
+    database_filepath -> Path to SQLite destination database (e.g. disaster_response_db.db)
+
+    Retuns:
+    X >> a dataframe containing features
+    Y >> a dataframe containing labels
+    category_names >> List of categories names
+    """
+    
     #created database
     engine = create_engine('sqlite:///'+database_filepath)
     df_data = pd.read_sql_table('DisasterResponse', engine)
@@ -50,6 +63,17 @@ def load_data(database_filepath):
 
 #Tokenize the text function
 def tokenize(text,url_place_holder_string="urlplaceholder"):
+    
+    """
+    Tokenize the text function
+    
+    Input:
+    text >> Text message which needs to be tokenized
+    
+    Returns:
+    clean_tokens >> List of tokens extracted from the provided text
+    """ 
+    
     #Replace all urls with a urlplaceholder string
     url_regex = 'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
     
@@ -77,6 +101,18 @@ def tokenize(text,url_place_holder_string="urlplaceholder"):
 
 #build machine learning pipeline
 def build_model():
+    
+    """
+    build machine learning pipeline
+    
+    Input:
+    pipeline >> build Pipeline function
+
+    Returns:
+    A Scikit ML Pipeline that process text messages and apply a classifier.
+   
+    """
+    
     pipeline = Pipeline([
     ('cvect', CountVectorizer(tokenizer=tokenize)),
     ('tfidf', TfidfTransformer()),
@@ -99,6 +135,17 @@ def build_model():
 
 #Evaluate Model function
 def evaluate_model(model, X_test, y_test, category_names):
+    
+    """
+    This function applies a ML pipeline to a test set and prints out classification report
+
+    Input:
+       pipeline >> A valid scikit ML Pipeline
+       X_test >> Test features
+       y_test >> Test labels
+       category_names >> target names
+    """    
+    
     #predict
     y_pred = model.predict(X_test) 
     class_report = classification_report(y_test, y_pred, target_names=category_names) 
@@ -110,6 +157,16 @@ def evaluate_model(model, X_test, y_test, category_names):
     
 #save model & trained model as Pickle file, to be loaded later.  
 def save_model_as_pickle(pipeline, pickle_filepath):
+    
+    """
+    This function saves trained model as Pickle file, to be loaded later.
+    
+    Input:
+    pipeline >> GridSearchCV or Scikit Pipelin object
+    pickle_filepath >> destination path to save .pkl file
+    
+    """
+    
     pickle.dump(pipeline, open(pickle_filepath, 'wb'))
     
 def main():

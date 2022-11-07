@@ -5,13 +5,37 @@ from sqlalchemy import create_engine
 
 #load data from csv files and merge to single pandas dataframe
 def load_data(messages_filepath, categories_filepath):
+    
+    """
+    load data from csv files and merge to single pandas dataframe
+    
+    Input: 
+    massages_filepath >> filepath to massages csv file
+    categories_filepath >> filepath to categories csv file
+    
+    Returns:
+    df_data >> dataframe merging messages and categories 
+    """
+    
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
     df_data = pd.merge(messages,categories,on='id')
     return df_data 
+  
 
-#Data pre-processing
+#Clean Data   
 def clean_data(df_data):
+    
+    """
+    clean df_data that containing massages and categories
+    
+    Input:
+    df_data >> Combined data containing massages and categories
+    
+    Returns:
+    df_data >> Combined data containing masssages and categories cleaned up
+    """
+        
     # split categories into separate category columns
     categories = df_data['categories'].str.split(pat=';', expand=True)
 
@@ -50,6 +74,17 @@ def clean_data(df_data):
 
 #save data to SQLite database function
 def save_data(df_data, database_filename):
+    
+    """
+    save data to SQLite database function
+    
+    Input:
+    df_data >> Combined data containing messages and categories with categories cleaned up
+        
+    Returns:
+    database_filename >> Path to SQLite destination database
+    """ 
+    
     engine = create_engine('sqlite:///' + database_filename)
     df_data.to_sql('DisasterResponse', engine, index=False, if_exists='replace')
 
