@@ -144,7 +144,3 @@ The coding for this project can be completed using the Project Workspace IDE pro
     - README.md
 ```
 
-
-```python
-
-```
