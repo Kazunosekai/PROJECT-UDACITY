@@ -97,7 +97,10 @@ Run the following commands in the project's root directory to set up your databa
    ```
    python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
    ```
-
+   Output :
+   
+   ![Model_saved.png](/../main/Disaster_Response_Pipeline/image/Model_saved.png) 
+   
 <a name="3.5"></a>
 ### 3.5. Deployment
 Open a new terminal window. You should already be in the `../Disaster Response Pipeline/App` folder, but if not, then use terminal commands to navigate inside the folder with the `run.py` file.
