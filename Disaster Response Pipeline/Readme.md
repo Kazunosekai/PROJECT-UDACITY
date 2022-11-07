@@ -25,7 +25,7 @@ In the Folder of "Notebook Pipeline", you'll find a data set containing real mes
 
 This project will show off your software skills, including your ability to create basic data pipelines and write clean, organized code!. Below are a few screenshots of the web app.
 
-/../../../../https://github.com/Kazunosekai/PROJECT-UDACITY/blob/main/Disaster%20Response%20Pipeline/image/Homepage%201.png
+[Homepage%201.png](/Disaster%20Response%20Pipeline/image/Homepage%201.png)
 
 [Homepage%202.png](https://github.com/Kazunosekai/PROJECT-UDACITY/blob/main/Disaster%20Response%20Pipeline/image/Homepage%202.png)
 
