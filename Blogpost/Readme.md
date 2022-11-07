@@ -1,16 +1,7 @@
 # INSIGHT INDONESIAN MOVIES ON NETFLIX
 
-## Table of Contents :
-1. [Introduction](#1)
-2. [Netflix Data in General](#2) 
-3. [What Is The Number Of Indonesian Movie And TV Show on Netflix ?](#3)
-4. [How Many Indonesian Movies Was Released Each Years On Netflix ?](#4)
-5. [How About Indonesian Movie Rating & Genre On Netflix ?](#5)
-6. [Who Are The Indonesian Movie Director & Actor on Netflix ?](#6)
-7. [Conclusion](#7)
-8. [Reference](#8)
 
-## **1. Introduction** <a name="1"></a>
+## **Introduction** 
 
 **Netflix** is a streaming service that allows our members to watch a wide variety of award-winning TV shows, movies, documentaries, and more on thousands of internet-connected devices In over 190 countries.
 
@@ -27,3 +18,6 @@ But on this occasion I'm not going to discuss how good Indonesian movies  are. I
 - Why : I want to show you facts or insights about Indonesian movies on Netflix.
 - How : I use numpy, pandas, matplotlib, and seaborn libraries. I put my code in note book called 'Blog Post.ipnyb' and the result can give us some insight about Indonesian Movies on Netflix. And also, I will focus on the Indonesian movies data alone, because For a TV show in Indonesia, there are only two data.
 
+## Reference
+Data Source : netflix_titles.csv at https://www.kaggle.com/code/manjunathgb/practical-4/data
+Medium : https://medium.com/@kazunobetta/review-indonesian-movies-on-netflix-7fe1e6fb01dc
