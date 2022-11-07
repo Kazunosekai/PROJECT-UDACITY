@@ -155,9 +155,6 @@ The coding for this project can be completed using the Project Workspace IDE pro
 ```
 <a name="5"></a>
 ## 5. Demo
-<p align="center">
-  <img src="Homepage_gif_1.gif"  width="900" height="500"/>
-</p>
 
 <p align="center">
   <img src="Homepage_gif_2.gif"  width="900" height="500"/>
