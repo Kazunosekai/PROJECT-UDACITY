@@ -19,5 +19,5 @@ But on this occasion I'm not going to discuss how good Indonesian movies  are. I
 - How : I use numpy, pandas, matplotlib, and seaborn libraries. I put my code in note book called 'Blog Post.ipnyb' and the result can give us some insight about Indonesian Movies on Netflix. And also, I will focus on the Indonesian movies data alone, because For a TV show in Indonesia, there are only two data.
 
 ## Reference
-Data Source : netflix_titles.csv at https://www.kaggle.com/code/manjunathgb/practical-4/data
-Medium : https://medium.com/@kazunobetta/review-indonesian-movies-on-netflix-7fe1e6fb01dc
+- Data Source : netflix_titles.csv at https://www.kaggle.com/code/manjunathgb/practical-4/data
+- Medium : https://medium.com/@kazunobetta/review-indonesian-movies-on-netflix-7fe1e6fb01dc
