@@ -15,7 +15,7 @@
     - **[3.5. Deployment](#3.5)**
 - **[4. Starter Code](#4)**
 - **[5. Demo](#5)**
-        - 
+        
 
 <a name="1"></a>
 ## 1. Project Overview
