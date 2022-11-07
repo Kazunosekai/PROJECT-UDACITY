@@ -13,7 +13,8 @@
     - **[3.3. Data Pipelines: Python Scripts](#3.3)**
     - **[3.4. Running ETL & ML Pipeline](#3.4)**
     - **[3.5. Deployment](#3.5)**
-- **[4. Starter Code](#4)**
+- **[4. Demo](#4)**
+- **[5. Starter Code](#5)**
         - 
 
 <a name="1"></a>
@@ -113,7 +114,17 @@ Open a new terminal window. You should already be in the `../Disaster Response P
 Your web app should now be running if there were no errors and than go to ```http://0.0.0.0:3001```
 
 <a name="4"></a>
-## 4. Starter Code
+## 4. Demo
+<p align="center">
+  <img src="Homepage_gif_1.gif"  width="900" height="500"/>
+</p>
+
+<p align="center">
+  <img src="Homepage_gif_2.gif"  width="900" height="500"/>
+</p>
+
+<a name="5"></a>
+## 5. Starter Code
 The coding for this project can be completed using the Project Workspace IDE provided. Here's the file structure of the project:
 ```sh
     - app
@@ -132,8 +143,8 @@ The coding for this project can be completed using the Project Workspace IDE pro
     - Img #result with screen shoot
         |- Homepage 1.png
         |- Homepage 2.png
-        |- Homepage gif 1.gif
-        |- Homepage gif 2.gif
+        |- ETL_Pipeline_Processing
+        |- Model_saved
         
     - models
         |- train_classifier.py
@@ -147,10 +158,9 @@ The coding for this project can be completed using the Project Workspace IDE pro
         |- DisasterResponse.db
         |- messages.csv
         |- model.pkl
- 
+    
+    - Homepage gif 1.gif
+    - Homepage gif 2.gif
     - README.md
 ```
-## 5. Demo
-<p align="center">
-  <img src="Homepage_gif_1.gif"  width="900" height="500"/>
-</p>
+
