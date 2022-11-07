@@ -89,6 +89,10 @@ Run the following commands in the project's root directory to set up your databa
    ```
    python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
    ```
+   Output :
+   
+   ![ETL_Pipeline_Processing.png](/../main/Disaster_Response_Pipeline/image/ETL_Pipeline_Processing.png)
+   
 2. To run ML pipeline that trains classifier and saves
    ```
    python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
@@ -143,10 +147,3 @@ The coding for this project can be completed using the Project Workspace IDE pro
  
     - README.md
 ```
-
-## 5. Demo
-<p align="center">
-  ![Homepage_gif_1.gif](/../main/Disaster_Response_Pipeline/image/Homepage_gif_1.gif)  
-  <width="900" height="500"/>
-</p>
-
