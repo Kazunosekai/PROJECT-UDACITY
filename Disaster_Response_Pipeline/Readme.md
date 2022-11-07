@@ -144,3 +144,8 @@ The coding for this project can be completed using the Project Workspace IDE pro
     - README.md
 ```
 
+## 5. Demo
+<p align="center">
+  <img src="Homepage_gif_1.gif"  width="900" height="500"/>
+</p>
+
