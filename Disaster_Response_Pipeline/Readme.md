@@ -26,14 +26,9 @@ In the Folder of "Notebook Pipeline", you'll find a data set containing real mes
 This project will show off your software skills, including your ability to create basic data pipelines and write clean, organized code!. Below are a few screenshots of the web app.
 
 ![Homepage_1.png](/../main/Disaster_Response_Pipeline/image/Homepage_1.png)
-<<<<<<< HEAD
 
 ![Homepage_2.png](/../main/Disaster_Response_Pipeline/image/Homepage_2.png)
 
-=======
-
-![Homepage_2.png](/../main/Disaster_Response_Pipeline/image/Homepage_2.png)
->>>>>>> 02889bbcd0db79ee03e49aca2f002b4d31e5e316
 
 <a name="2"></a>
 ## 2. Project Components
