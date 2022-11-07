@@ -14,6 +14,7 @@
     - **[3.4. Running ETL & ML Pipeline](#3.4)**
     - **[3.5. Deployment](#3.5)**
 - **[4. Starter Code](#4)**
+- **[5. Demo](#5)**
         - 
 
 <a name="1"></a>
@@ -89,11 +90,18 @@ Run the following commands in the project's root directory to set up your databa
    ```
    python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
    ```
+   Output :
+   
+   ![ETL_Pipeline_Processing.png](/../main/Disaster_Response_Pipeline/image/ETL_Pipeline_Processing.png)
+   
 2. To run ML pipeline that trains classifier and saves
    ```
    python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
    ```
-
+   Output :
+   
+   ![Model_saved.png](/../main/Disaster_Response_Pipeline/image/Model_saved.png) 
+   
 <a name="3.5"></a>
 ### 3.5. Deployment
 Open a new terminal window. You should already be in the `../Disaster Response Pipeline/App` folder, but if not, then use terminal commands to navigate inside the folder with the `run.py` file.
@@ -125,8 +133,8 @@ The coding for this project can be completed using the Project Workspace IDE pro
     - Img #result with screen shoot
         |- Homepage 1.png
         |- Homepage 2.png
-        |- Homepage gif 1.gif
-        |- Homepage gif 2.gif
+        |- ETL_Pipeline_Processing
+        |- Model_saved
         
     - models
         |- train_classifier.py
@@ -140,13 +148,14 @@ The coding for this project can be completed using the Project Workspace IDE pro
         |- DisasterResponse.db
         |- messages.csv
         |- model.pkl
- 
+    
+    - Homepage gif 1.gif
+    - Homepage gif 2.gif
     - README.md
 ```
-
+<a name="5"></a>
 ## 5. Demo
-<p align="center">
-  ![Homepage_gif_1.gif](/../main/Disaster_Response_Pipeline/image/Homepage_gif_1.gif)  
-  <width="900" height="500"/>
-</p>
 
+<p align="center">
+  <img src="Homepage_gif_2.gif"  width="900" height="500"/>
+</p>
