@@ -15,7 +15,7 @@
     - **[3.5. Deployment](#3.5)**
 - **[4. Starter Code](#4)**
 - **[5. Demo](#5)**
-        - 
+        
 
 <a name="1"></a>
 ## 1. Project Overview
@@ -105,10 +105,15 @@ Run the following commands in the project's root directory to set up your databa
 <a name="3.5"></a>
 ### 3.5. Deployment
 Open a new terminal window. You should already be in the `../Disaster Response Pipeline/App` folder, but if not, then use terminal commands to navigate inside the folder with the `run.py` file.
-
+  ```sh
   - Go to `app` folder/directory with type : `cd app`
 
   - Run your web app with type : `python run.py`
+  ```
+  Output :
+  
+  ![Deploy.png](/../main/Disaster_Response_Pipeline/image/Deploy.png)
+
     
 
 Your web app should now be running if there were no errors and than go to ```http://0.0.0.0:3001```
