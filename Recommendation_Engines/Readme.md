@@ -26,3 +26,31 @@ Given the amount of content available for each article, there are a number of di
 
 **V. Matrix Factorization**
 Finally, we will complete a machine learning approach to building recommendations. Using the user-item interactions, we will build out a matrix decomposition. Using your decomposition, we will get an idea of how well we can predict new articles an individual might interact with (spoiler alert - it isn't great). we will finally discuss which methods you might use moving forward, and how we might test how well your recommendations are working for engaging users.
+
+## File Descriptions
+Recommendations_with_IBM.ipynb - Jupyter Notebook for project
+project_test.py - Python file contains solutions for test questions in the Jupyter Notebook.
+
+- top_10.p - P file contains top 10 articles.
+- top_20.p - P file contains top 20 articles.
+- top_5.p - P file contains top 5 articles.
+- user_item_matrix.zip - zipped file for user_item_matrix.p. We need to unzip the file to use it. This is P file containing user item matrix that we will use to perform Singular Value Decomposition (SVD).
+
+(Note: P files are used by project_test.py to test top n articles we obtained via functions we created.)
+
+## Folder: data
+articles_community.csv - articles available on the IBM platform
+user-item-interactions.csv - list of articles that users interact with
+
+## Libraries
+- pandas 
+- numpy
+- matplotlib 
+- pickle
+
+## Instructions
+Run the codes inside Jupyter notebook to complete the project.
+
+## Acknowledgements
+[IBM](https://www.ibm.com/us-en/) for providing user interaction article dataset from IBM Watson Studio.
+
