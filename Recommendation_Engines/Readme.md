@@ -8,7 +8,7 @@ In the IBM Watson Studio, there is a large collaborative community ecosystem of 
 ## Introduction
 For this project we will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles we think they will like. Below we can see an example of what the dashboard could look like displaying articles on the IBM Watson Platform.
 
-![image_1.png](/../main/Recommendation Engines/image_1.png)
+![image_1.png](/../main/Recommendation_Engines/image_1.png)
 
 Though the above dashboard is just showing the newest articles, we could imagine having a recommendation board available here that shows the articles that are most pertinent to a specific user.
 
