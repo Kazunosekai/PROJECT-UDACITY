@@ -39,8 +39,8 @@ project_test.py - Python file contains solutions for test questions in the Jupyt
 (Note: P files are used by project_test.py to test top n articles we obtained via functions we created.)
 
 ## Folder: data
-articles_community.csv - articles available on the IBM platform
-user-item-interactions.csv - list of articles that users interact with
+- articles_community.csv - articles available on the IBM platform
+- user-item-interactions.csv - list of articles that users interact with
 
 ## Libraries
 - pandas 
