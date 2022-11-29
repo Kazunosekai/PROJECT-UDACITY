@@ -33,8 +33,8 @@ Given the amount of content available for each article, there are a number of di
 Finally, we will complete a machine learning approach to building recommendations. Using the user-item interactions, we will build out a matrix decomposition. Using your decomposition, we will get an idea of how well we can predict new articles an individual might interact with (spoiler alert - it isn't great). we will finally discuss which methods you might use moving forward, and how we might test how well your recommendations are working for engaging users.
 
 ## File Descriptions
-Recommendations_with_IBM.ipynb - Jupyter Notebook for project
-project_test.py - Python file contains solutions for test questions in the Jupyter Notebook.
+- Recommendations_with_IBM.ipynb - Jupyter Notebook for project
+- project_test.py - Python file contains solutions for test questions in the Jupyter Notebook.
 
 - top_10.p - P file contains top 10 articles.
 - top_20.p - P file contains top 20 articles.
