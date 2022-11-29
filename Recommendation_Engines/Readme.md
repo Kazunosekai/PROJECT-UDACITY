@@ -1,5 +1,4 @@
-# Project: Recommendation Engines
-# Recommendations_with_IBM
+# Project: Recommendation Engines (Recommendations_with_IBM)
 
 ## Project Motivation
 
