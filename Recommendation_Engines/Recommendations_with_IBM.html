@@ -14565,7 +14565,7 @@ The 3 most similar users to user 46 are: [4201, 23, 3782]
 <li>Instead of arbitrarily choosing when we obtain users who are all the same closeness to a given user - choose the users that have the most total article interactions before choosing those with fewer article interactions.</li>
 </ul>
 <ul>
-<li>Instead of arbitrarily choosing articles from the user where the number of recommended articles starts below m and ends exceeding m, choose articles with the articles with the most total interactions before choosing those with fewer total interactions. This ranking should be  what would be obtained from the <strong>top_articles</strong> function you wrote earlier.</li>
+<li>Instead of arbitrarily choosing articles from the user where the number of recommended articles starts below m and ends exceeding m, choose articles with the articles with the most total interactions before choosing those with fewer total interactions. This ranking should be  what would be obtained from the <strong>get_top_articles</strong> function you wrote earlier.</li>
 </ul>
 
 </div>
@@ -14786,7 +14786,7 @@ The top 10 recommendations for user 20 are the following article names:
 <li>we'll use rank based recomendation since we don't have data from the new user. The best function to use would be <code>get_top_article</code> as this reflects the most popular articles for all the users interactions.</li>
 </ul>
 <ul>
-<li>When we provide recommendations via get_top_article_ids to new user then interaction count to these articles should not be counted for these new users as it may create bias.</li>
+<li>When we provide recommendations via <code>get_top_article_ids</code> to new user then interaction count to these articles should not be counted for these new users as it may create bias.</li>
 </ul>
 
 </div>
