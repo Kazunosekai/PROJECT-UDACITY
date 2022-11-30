@@ -14781,12 +14781,12 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong><code>Provide My response here:</code></strong></p>
+<p><strong><code>My Response:</code></strong></p>
 <ul>
-<li><p>we'll use rank based recomendation since we don't have data from the new user. The best function to use would be <code>get_top_article</code> as this reflects the most popular articles for all the users interactions.</p>
-</li>
-<li><p>When we provide recommendations via get_top_article_ids to new user then interaction count to these articles should not be counted for these new users as it may create bias.</p>
-</li>
+<li>we'll use rank based recomendation since we don't have data from the new user. The best function to use would be <code>get_top_article</code> as this reflects the most popular articles for all the users interactions.</li>
+</ul>
+<ul>
+<li>When we provide recommendations via get_top_article_ids to new user then interaction count to these articles should not be counted for these new users as it may create bias.</li>
 </ul>
 
 </div>
@@ -15255,12 +15255,12 @@ vt (array) - Total number of Rows: 714 and Columns: 714
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong><code>Provide My response :</code></strong></p>
+<p><strong><code>My response:</code></strong></p>
 <ul>
-<li><p>We use SVD because in this project the matrix has no missing values. SVD can achieve a very great result on non-sparse data, it means on data with no missing values. In the lesson we use Funk SVD because there is missing values. Funk SVD will ignore these missing values and find a way to compute latent factors only using the values we know.</p>
-</li>
-<li><p>To be more specific, we may use SVD because there aren't any missing values(NaNs) in the original user-item matrix. This was not applicable to our user-item matrix used throughout the lesson since there were numerous null values hence, FunkSVD can be used as it will ignore these missing values and find a way to compute latent factors only using the values we know. So basically, we use SVD when there are no missing values in our data.</p>
-</li>
+<li>We use SVD because in this project the matrix has no missing values. SVD can achieve a very great result on non-sparse data, it means on data with no missing values. In the lesson we use Funk SVD because there is missing values. Funk SVD will ignore these missing values and find a way to compute latent factors only using the values we know.</li>
+</ul>
+<ul>
+<li>To be more specific, we may use SVD because there aren't any missing values(NaNs) in the original user-item matrix. This was not applicable to our user-item matrix used throughout the lesson since there were numerous null values hence, FunkSVD can be used as it will ignore these missing values and find a way to compute latent factors only using the values we know. So basically, we use SVD when there are no missing values in our data.</li>
 </ul>
 
 </div>
@@ -15841,7 +15841,7 @@ vt (array) - Total number of Rows: 714 and Columns: 714
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>My response here.</strong></p>
+<p><strong><code>My response:</code></strong></p>
 <ul>
 <li>We can see that the accuracy associated with the test data tends to decrease as the latent features increase. On the other hand, the accuracy associated with the training data it tends to increase towards one hundred percent as the latent features increase. This difference could be due to the lack of users shared between the testing and training datasets, only 20 were found. It's not reasonable to conclude since the test size is small.</li>
 </ul>
