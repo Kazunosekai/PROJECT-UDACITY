@@ -1,11 +1,11 @@
-# Data Scientist Capstone : Indonesia Earthquake
+# Data Scientist Capstone : Indonesian Earthquake
 
 Indonesia is one of the countries where almost all of its land is in the "Ring of Fire". understanding and learning how earthquake disasters in Indonesia are very important for the Indonesian government to mitigate things that might hurt the people of Indonesia.
 
 We will create a machine learning model that can predict future earthquake events based on recorded data of previous earthquake events. This machine-learning model can be developed for other strategic purposes.
 
 ## Project Overview
-The dataset I'm using here is eartquake in an Indonesia from [Kaggle](https://www.kaggle.com/code/elmajoadriel/indonesia-earthquake-analysis-and-insight/data). The Machine Learning models used are:
+The dataset I'm using here is eartquake in Indonesia from [Kaggle](https://www.kaggle.com/code/elmajoadriel/indonesia-earthquake-analysis-and-insight/data). The Machine Learning models used are:
 
 1. XGB Classifier
 2. K-Nearest Neighbors Classifier
@@ -21,3 +21,6 @@ This article is intended to:
 - Train Various Machine Learning Models to choose the most suitable one
 
 We use simple methods to do several things such as cleaning data, exploring data, building models and evaluating models. We ended up achieved highest accuracy on XGB Classifier. In the future we can use this model (with some improvements) help to mitigate earthquake disasters, so that an early warning can be made, minimize property damage, and it is hoped that the number of earthquake victims can be reduced.
+
+## Blog Post
+You can find my blog post: https://medium.com/@kazunobetta/the-simple-machine-learning-model-for-indonesian-earthquake-eab8447e98c5
