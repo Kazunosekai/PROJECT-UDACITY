@@ -5,7 +5,7 @@ Indonesia is one of the countries where almost all of its land is in the "Ring o
 We will create a machine learning model that can predict future earthquake events based on recorded data of previous earthquake events. This machine-learning model can be developed for other strategic purposes.
 
 ## Project Overview
-The dataset I'm using here is eartquake in Indonesia from [Kaggle](https://www.kaggle.com/code/elmajoadriel/indonesia-earthquake-analysis-and-insight/data). The Machine Learning models used are:
+The dataset I'm using here is eartquake in an Indonesia from [Kaggle](https://www.kaggle.com/code/elmajoadriel/indonesia-earthquake-analysis-and-insight/data). The Machine Learning models used are:
 
 1. XGB Classifier
 2. K-Nearest Neighbors Classifier
