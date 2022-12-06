@@ -31,7 +31,7 @@ We use simple methods to do several things such as cleaning data, exploring data
 ## Software Requirements
 To plot 2D data on maps in Python using matplotlib, we have to install several packages from matplotlib, namely basemap and basemap-data.
 
-How To install this package ? you can see [here](https://github.com/Kazunosekai/PROJECT-UDACITY/blob/main/Data%20Scientist%20Capstone/requirements.txt)
+How To install this package ? you can see [here.](https://github.com/Kazunosekai/PROJECT-UDACITY/blob/main/Data%20Scientist%20Capstone/requirements.txt)
 
 
     
