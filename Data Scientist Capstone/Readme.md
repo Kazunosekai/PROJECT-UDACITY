@@ -23,10 +23,10 @@ This article is intended to:
 We use simple methods to do several things such as cleaning data, exploring data, building models and evaluating models. We ended up achieved highest accuracy on XGB Classifier. In the future we can use this model (with some improvements) help to mitigate earthquake disasters, so that an early warning can be made, minimize property damage, and it is hoped that the number of earthquake victims can be reduced.
 
 ## File Description
-    - data/earthquaqe_id.csv : Main data from [Kaggle](https://www.kaggle.com/code/elmajoadriel/indonesia-earthquake-analysis-and-insight/data) which I renamed to earthquaqe_id.csv
-    - image : The image folder contains the screenshot results
-    - Indonesia-earthquake.ipynb : Notebook file containing Analyze datasets with simple visualizations, Beginner Machine Learning model building, and Train Various Machine Learning Models to choose the most suitable one 
-    - Readme.MD : Short information about the contents of the repository
+- data/earthquaqe_id.csv : Main data from [Kaggle](https://www.kaggle.com/code/elmajoadriel/indonesia-earthquake-analysis-and-insight/data) which I renamed to earthquaqe_id.csv
+- image : The image folder contains the screenshot results
+- Indonesia-earthquake.ipynb : Notebook file containing Analyze datasets with simple visualizations, Beginner Machine Learning model building, and Train Various Machine Learning Models to choose the most suitable one 
+- Readme.MD : Short information about the contents of the repository
     
 ## Software Requirements
 To plot 2D data on maps in Python using matplotlib, we have to install several packages from matplotlib, namely basemap and basemap-data.
