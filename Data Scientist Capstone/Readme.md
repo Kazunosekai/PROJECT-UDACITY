@@ -37,7 +37,15 @@ How To install this package ? you can see [here](https://github.com/Kazunosekai/
     
 ## Blog Post
 You can find my blog post: https://medium.com/@kazunobetta/the-simple-machine-learning-model-for-indonesian-earthquake-eab8447e98c5
-**Reference :** https://thecleverprogrammer.com/2020/11/12/earthquake-prediction-model-with-machine-learning/
+
+
+
+## Reference 
+- https://thecleverprogrammer.com/2020/11/12/earthquake-prediction-model-with-machine-learning/
+- https://machinelearningmastery.com/develop-first-xgboost-model-python-scikit-learn/
+- https://machinelearningknowledge.ai/knn-classifier-in-sklearn-using-gridsearchcv-with-example/
+- https://www.datacamp.com/tutorial/adaboost-classifier-python
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
