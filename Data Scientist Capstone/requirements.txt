@@ -1,0 +1,42 @@
+basemap = 1.3.6 - Source https://anaconda.org/conda-forge/basemap
+basemap-data = 1.3.2  - Source https://anaconda.org/conda-forge/basemap-data
+
+Basemap toolkit is a library for plotting 2D data on maps in Python. It is similar in functionality to the matlab mapping toolbox, the IDL mapping facilities, GrADS, or the Generic Mapping Tools.
+
+=================================================================================
+
+To install these package with anaconda, run one of the following :
+
+1. basemap
+        conda install -c conda-forge basemap
+        conda install -c "conda-forge/label/basemap_rc" basemap
+        conda install -c "conda-forge/label/broken" basemap
+        conda install -c "conda-forge/label/cf201901" basemap
+        conda install -c "conda-forge/label/cf202003" basemap
+        conda install -c "conda-forge/label/gcc7" basemap
+    
+2. basemap-data 
+        conda install -c conda-forge basemap-data
+
+3. after you have successfully installed the two toolkits above, you need to Add a new environment variable:  
+        os.environ['PROJ_LIB']
+    
+   This variable serves for the cartographic projection of geodetic coordinates onto a 2D map, and than proceed with the following code:
+        
+        m = Basemap(projection='mill',llcrnrlat=-15,urcrnrlat=8, llcrnrlon=93,urcrnrlon=144,resolution='l')
+        longitudes = dfRaw["longitude"].tolist()
+        latitudes = dfRaw["latitude"].tolist()
+        x,y = m(longitudes,latitudes)
+
+        fig = plt.figure(figsize=(12,10))
+        plt.title("Earthquake in Indonesia")
+        m.plot(x, y, "o", markersize = 2, color = 'blue')
+        m.drawcoastlines()
+        m.fillcontinents(color='coral',lake_color='aqua')
+        m.drawmapboundary()
+        m.drawcountries()
+        plt.show()
+
+
+
+
